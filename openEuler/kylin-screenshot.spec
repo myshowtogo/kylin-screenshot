@@ -14,7 +14,7 @@ BuildRequires:  qt5-qtsvg-devel
 BuildRequires:  qt5-qtbase-devel
 BuildRequires:  pulseaudio-devel
 BuildRequires:  libXtst-devel
-BuildRequires:  libXtst-devel
+BuildRequires:  libXinerama-devel
 BuildRequires:  libXinerama
 BuildRequires:  libXfixes-devel
 BuildRequires:  libXfixes
