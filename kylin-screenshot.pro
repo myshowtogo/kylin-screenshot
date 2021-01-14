@@ -315,11 +315,12 @@ unix:!macx {
 
     servicedbus.path = $${PREFIX}/share/dbus-1/services/
 
-    packaging {
-        servicedbus.files = dbus/package/org.dharkael.kylinscreenshot.service
-    } else {
-        servicedbus.files = dbus/make/org.dharkael.kylinscreenshot.service
-    }
+#    packaging {
+#        servicedbus.files = dbus/package/org.dharkael.kylinscreenshot.service
+#    } else {
+#        servicedbus.files = dbus/make/org.dharkael.kylinscreenshot.service
+#    }
+    servicedbus.files = dbus/package/org.dharkael.kylinscreenshot.service
 
     INSTALLS += target \
         icon \

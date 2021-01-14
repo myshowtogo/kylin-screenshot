@@ -21,4 +21,4 @@ cd /root/rpmbuild/SPECS/
 rpmbuild -ba $pkg_name.spec
 echo "安装rpm包"
 cd /root/rpmbuild/RPMS/x86_64/
-rpm -ivh --replacefiles --force --nodeps *.x86_64.rpm
+rpm -Uvh --replacefiles --force --nodeps $pkg_name*.x86_64.rpm
